@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+@import '~bootstrap/scss/bootstrap';
+
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Noto Sans TC', sans-serif;
+    .btn{
+        padding: .25em 1em;
+    }
+    .top-part{
+        border-bottom:1px solid #ddd;
+        .title {
+            font-size: 1.5em;
+        }
+    }
+    .content {
+        text-align: center;
+    }
+    .list{
+        [type=search] {
+            outline-offset: 0px;
+            -webkit-appearance: auto;
+        }
+        .table{
+            width:100%;
+            th:not(:first-child){
+                min-width: 35px;
+
+            }
+        }
+        @media all and (max-width: 1000px) {
+            width:100%;
+            overflow-x: auto;
+        }
+    }
+    #createModal{
+        #inputBirthday{
+            border: 1px solid #ced4da;
+        }
+        label{
+            span{
+                font-size: 1.3em;
+                font-weight: 900;
+                vertical-align: middle;
+            }
+        }
+    }
+
+
+
+
+}
+
+
